@@ -1,0 +1,7 @@
+title: Pranav Datta
+
+description: >
+  This is a site containing a few of my projects
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
