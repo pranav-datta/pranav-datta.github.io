@@ -1,4 +1,4 @@
-I'm currently a Computer Science master's student specializing in Machine Learning at the Georgia Institute of Technology, which I anticipate to complete in December 2024. I graduated from Georgia Tech in December 2023 with a bachelor's in Computer Science concentrating in Intelligence and Information Internetworks.
+I'm currently a Computer Science M.S. student specializing in Machine Learning at the Georgia Institute of Technology, which I anticipate to complete in December 2024. I graduated with highest honors from Georgia Tech in December 2023 with a B.S. in Computer Science concentrating in Intelligence and Information Internetworks.
 
 I've recently been interested in computer vision and its applications. I developed a tool in Python that can automatically create football playcards given the video of a football play. Additionally, I am currently involved in research at the Margulies Injury Biomechanics Laboratory at Emory University where we use convolutional neural networks to detect blood-brain barrier leakages after brain injury. 
 
