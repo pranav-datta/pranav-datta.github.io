@@ -8,17 +8,17 @@ Professionally, I spent two summers interning at Capital One building applicatio
 
 ## [Football 3D Reconstruction](https://pranav-datta.github.io/Football-3D-Reconstruction/)
 
-![Football play with bounding boxes around each player](/images/football.png)
+![Football play with bounding boxes around each player](/images/football.png | width=100)
 
 This was a project in my CS 6476 Computer Vision class where we developed a method for reconstructing football plays in Unity so that the play could be viewed from any angle. We used a neural network trained on football players to get player positions *ADD TRACKING STUFF*. For the homography of these positions to our virtual field, we used blob detection and Hough Line Transform to detect interest points on the field. 
 
 ## [Music Recommender](https://github.com/pranav-datta/Music-Recommender/blob/main/Final_Report.pdf)
 
-![Spectrogram of song](/images/music.png)
+![Spectrogram of song](/images/music.png | width=100)
 
 ## [NBA Game Predictor](https://pranav-datta.github.io/NBA-Game-Predictor/final.html)
 
-![Visualization of machine learning model output](/images/nba.png)
+![Visualization of machine learning model output](/images/nba.png | width=100)
 
 # Other Projects
 
