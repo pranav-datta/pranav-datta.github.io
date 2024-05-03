@@ -30,7 +30,7 @@ The goal of this project was to see if machine learning could predict the winner
 
 iOS application to record and save data from iPhone's accelerometer and gyroscope.
 
-## [Basketball Fatigue Study](https://github.com/pranav-datta/Basketball-Fatigue-Study)
+## [Basketball Fatigue Study]([https://github.com/pranav-datta/Basketball-Fatigue-Study](https://github.com/pranav-datta/Basketball-Fatigue-Study/blob/main/Project%20Report.pdf))
 
 Study to measure the effect of fatigue on the lower body during basketball shooting using accelerometer, EMG, ECG, and PZT respiration. Signal processing done on Python.
 
