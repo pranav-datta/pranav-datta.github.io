@@ -8,30 +8,48 @@ Professionally, I spent two summers interning at Capital One building applicatio
 
 ## [Football 3D Reconstruction](https://pranav-datta.github.io/Football-3D-Reconstruction/)
 
-![Football play with bounding boxes around each player](/images/football.png | width=100)
+![Football play with bounding boxes around each player](/images/football.png)
 
-This was a project in my CS 6476 Computer Vision class where we developed a method for reconstructing football plays in Unity so that the play could be viewed from any angle. We used a neural network trained on football players to get player positions *ADD TRACKING STUFF*. For the homography of these positions to our virtual field, we used blob detection and Hough Line Transform to detect interest points on the field. 
+We developed a method for reconstructing football plays in the Unity game engine so that the play could be viewed from any angle. We used a neural network trained on football players to find player positions and created a novel tracking algorithm to record each player's position on every frame of the video. For the homography of these positions to our virtual field, we used blob detection and Hough Line Transform to detect interest points on the field. In future iterations of this project, we can use pose estimation so that the animations of the reconstructed players are accurate to the movements of the players in the video. This project also demonstrates aspects of my football playcard tool.
 
 ## [Music Recommender](https://github.com/pranav-datta/Music-Recommender/blob/main/Final_Report.pdf)
 
-![Spectrogram of song](/images/music.png | width=100)
+![Spectrogram of song](/images/music.png)
+
+In this study, we compared seven different deep learning models and their ability to predict a song's genre based on its raw audio converted to spectrograms. The idea was that if a model could perform well in this task, then the model may be adopted for music recommendation systems due to its success in classifying similar songs. In this process, we created a new type of neural network architecture called a 1D Convolutional Encoder which borrows from the strengths of 1D CNNs and Encoders. With this architecture, we achieved 70% accuracy in the music genre classification task.
 
 ## [NBA Game Predictor](https://pranav-datta.github.io/NBA-Game-Predictor/final.html)
 
-![Visualization of machine learning model output](/images/nba.png | width=100)
+![Visualization of machine learning model output](/images/nba.png)
+
+The goal of this project was to see if machine learning could predict the winner of any NBA matchup using each team's statistics over the previous ten games. We used linear regression, logistic regression, support vector machines, and PCA for this task. Our best approach was able to achieve 84% accuracy. Performing feature reduction gave us insights into the most important statistics in predicting the outcomes of NBA games, which interestingly were different for each decade of the NBA's history. 
 
 # Other Projects
 
 ## [iPhone Sensor Recorder](https://github.com/pranav-datta/iPhone-Sensor-Recorder)
 
+iOS application to record and save data from iPhone's accelerometer and gyroscope.
+
 ## [Basketball Fatigue Study](https://github.com/pranav-datta/Basketball-Fatigue-Study)
+
+Study to measure the effect of fatigue on the lower body during basketball shooting using accelerometer, EMG, ECG, and PZT respiration. Signal processing done on Python.
 
 ## [Chat Room](https://github.com/pranav-datta/ChatRoom)
 
+A simple local chat room on Python using sockets and threading.
+
 ## [Peer 2 Peer File Sharing](https://github.com/pranav-datta/Peer2Peer)
+
+A simple local Peer 2 Peer file sharing application on Python.
 
 ## [Meal Planner](https://github.com/pranav-datta/Meal-Planner)
 
+Meal planner database application using MySQL.
+
 ## [World's Hardest Easiest GBA Game](https://github.com/pranav-datta/GBAgame)
 
+Simple Gameboy Advanced game that mimics The World Hardest Game.
+
 ## [Tower Defense Game](https://github.com/pranav-datta/TowerDefenseGame)
+
+Simple game inspired by Bloons Tower Defense in Java.
