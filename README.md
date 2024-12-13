@@ -12,6 +12,12 @@ Professionally, I spent two summers interning at Capital One building applicatio
 
 We developed a method for reconstructing football plays in the Unity game engine so that the play could be viewed from any angle. We used a neural network trained on football players to find player positions and created a novel tracking algorithm to record each player's position on every frame of the video. For the homography of these positions to our virtual field, we used blob detection and Hough Line Transform to detect interest points on the field. In future iterations of this project, we can use pose estimation so that the animations of the reconstructed players are accurate to the movements of the players in the video. This project also demonstrates aspects of my football playcard tool.
 
+## [ManipuLang](https://github.com/pranav-datta/ManipuLang/blob/main/ManipuLang%20Project%20Report.pdf)
+
+![Removal pipeline](/images/removal.png)
+
+Rendering and editing real environments virtually typically involve advanced software that requires expert users. Methods such as Gaussian Splatting have simplified the conversion of real-world images to 3D virtual scenes, but current processes of editing these scenes involve manual specification of tasks, identification of objects, and localization of interest regions (in the form of bounding boxes) for addition tasks. Therefore, modifying 3D scenes using open-vocabulary queries is an open problem. We propose a solution called ManipuLang, which integrates LLMs (GPT-4o and LLaVA-3D) for interpreting arbitrary language prompts for task and object identification. It then uses GroundedSAM to localize the object and removes the associated Gaussians in the scene. We also explored options for performing addition into the scene. We hope this offers an avenue for easily and accessibly manipulating 3D environments generated from real-world images.
+
 ## [Music Recommender](https://github.com/pranav-datta/Music-Recommender/blob/main/Final_Report.pdf)
 
 ![Spectrogram of song](/images/music.png)
